@@ -1,0 +1,79 @@
+{
+  "version": "index274-closeout-copy-intentionality-v1",
+  "generatedAt": "2026-07-15",
+  "source": "index273 (accepted functional + visual baseline)",
+  "hashes": {
+    "index273Before": "01E7E60CEF3A2B6BB31B5BD33DB755B0AD8CB907C2BC5B3ACDC53568362FC0DE",
+    "index273After": "01E7E60CEF3A2B6BB31B5BD33DB755B0AD8CB907C2BC5B3ACDC53568362FC0DE",
+    "index274": "7C322A12653F89E160F8DF6E17A7ED7FA7C5AAF781CC062961F560B96A137744",
+    "index273PrefixPreservedInIndex274": true
+  },
+  "staticBoundaryChecks": {
+    "index273Bytes": 4949591,
+    "index274Bytes": 4961000,
+    "appendedLayerBytes": 11409,
+    "index274FirstNBytesEqualIndex273": "sha256 of first 4949591 bytes of index274 == index273 sha256",
+    "index274LayerMarkers": 2,
+    "layerNetworkCalls": 0,
+    "layerLocalStorageWrites": 0,
+    "layerLocalStorageReads": 0,
+    "layerNewStorageKeys": 0,
+    "layerLifecycleMutators": 0,
+    "layerFinalCloseoutQaReleaseArchiveMutators": 0
+  },
+  "verification": {
+    "method": "Live render over local HTTP (Browser pane raster screenshot capture was non-functional this session; verified via DOM/computed-style inspection, an injected load-time error collector driven through the full natural lifecycle, and self-contained static visual PROOF snapshots).",
+    "console": { "loadErrors": 0, "lifecycleInteractionErrors": 0, "idleMutationsIn1s": 0 },
+    "inheritedIndex272Fixtures": "17/17 fixtures · 32/32 assertions passed"
+  },
+  "targetedValidation": {
+    "passedCount": 28,
+    "total": 28,
+    "failedCount": 0,
+    "assertions": [
+      { "id": 1, "name": "Index 273 remains unchanged", "pass": true, "evidence": "sha256 identical before/after: 01E7E60…" },
+      { "id": 2, "name": "Index 274 loads without console errors", "pass": true, "evidence": "load-time collector captured [] across start→end→final-day→step3→confirm→reset" },
+      { "id": 3, "name": "No horizontal overflow", "pass": true, "evidence": "documentElement.scrollWidth 1265 <= innerWidth 1280 at 100% zoom" },
+      { "id": 4, "name": "Material Accountability begins at 673 lb and 99.16%", "pass": true, "evidence": "ledger Total Accounted 79,327 (99.16%), Current Unaccounted 673 (0.84%), unresolved 673 lb" },
+      { "id": 5, "name": "Revised Material Accountability descriptor appears", "pass": true, "evidence": "“Frozen production basis · 99.16% accounted before reconciliation”" },
+      { "id": 6, "name": "“Where did the material go?” removed", "pass": true, "evidence": "heading subtitle replaced by descriptor; string absent" },
+      { "id": 7, "name": "Long quoted question removed", "pass": true, "evidence": ".cw267-question node removed from DOM" },
+      { "id": 8, "name": "“Full reconciliation basis” removed", "pass": true, "evidence": "replaced by “Pre-Reconciliation Material Balance”" },
+      { "id": 9, "name": "“Pre-Reconciliation Material Balance” present and readable", "pass": true, "evidence": "color rgb(23,50,76), 12px, weight 800, uppercase, 0.84px tracking (above bar)" },
+      { "id": 10, "name": "All balance labels and values remain exact", "pass": true, "evidence": "Product Output 78,684 · 98.36%, Documented Loss 643 · 0.80%, Unaccounted 673 · 0.84%; ledger values exact; proportions/colors untouched" },
+      { "id": 11, "name": "Product Output accordion removed", "pass": true, "evidence": "full-width .cw267-definition <details> removed from DOM" },
+      { "id": 12, "name": "Product Output definition remains accessible", "pass": true, "evidence": "compact info control beside Product Output; role=tooltip, aria-describedby, aria-expanded, :focus-visible ring, Esc/outside-click close; exact text “Product Output includes primary and partial finished goods. Documented loss is tracked separately.”" },
+      { "id": 13, "name": "Run Story displays “Six-Day Production History”", "pass": true, "evidence": "section h2 textContent = Six-Day Production History" },
+      { "id": 14, "name": "Architecture/R&D text removed", "pass": true, "evidence": "“One manufacturing record · two synchronized views”, “What happened over time?”, and “WHAT HAPPENED OVER TIME · WHERE THE MATERIAL WENT” no longer shown" },
+      { "id": 15, "name": "All six production records remain exact", "pass": true, "evidence": "07/06 1350 / 07/07 20250 / 07/08 15650 / 07/09 16500 / 07/10 15250 / 07/13 9650+34 partial+643 waste" },
+      { "id": 16, "name": "Revised chart caption appears", "pass": true, "evidence": "“All days use one shared scale. The final day shows Product Output plus Documented Loss.”" },
+      { "id": 17, "name": "52 lb valid entry yields 695 / 79,379 / 621 / 99.22%", "pass": true, "evidence": "known 52, final loss 695, final accounted 79,379, remaining 621, 99.22% — via real “+ Add Known Loss” + typing" },
+      { "id": 18, "name": "Draft-retention cue appears while Step 3 editable; removed after confirm", "pass": true, "evidence": "“Changes are saved to this reconciliation draft automatically.” present in REVIEW_REQUIRED; absent in ACCOUNTABILITY_CONFIRMED" },
+      { "id": 19, "name": "No Save, Apply, or Commit button exists", "pass": true, "evidence": "0 buttons matching /save|apply|commit/i" },
+      { "id": 20, "name": "Adding 100 lb yields 152 / 795 / 79,479 / 521 / 99.35%", "pass": true, "evidence": "known 152, final loss 795, final accounted 79,479, remaining 521, 99.35%" },
+      { "id": 21, "name": "Other without description disables confirmation", "pass": true, "evidence": "otherMissing → confirm.disabled = true; source-adjacent “Describe the other contributing factor.” shown" },
+      { "id": 22, "name": "Disabled Confirm remains clearly readable", "pass": true, "evidence": "label “Confirm Material Accountability”; bg rgb(233,237,241), text rgb(57,72,90) (~7.9:1 contrast), border rgb(180,192,204), opacity 1, cursor default" },
+      { "id": 23, "name": "Disabled Confirm remains non-actionable", "pass": true, "evidence": "click on disabled confirm opened no modal host" },
+      { "id": 24, "name": "Clearing Other restores enabled Confirm", "pass": true, "evidence": "unchecking Other → confirm.disabled false, Other input + error removed, remaining 521 / 99.35%" },
+      { "id": 25, "name": "Confirmation and confirmed state remain exact", "pass": true, "evidence": "modal retains 80,000/78,684/643/152/79,479/521; confirmed cards 795 / 79,479 / 521 / 99.35%" },
+      { "id": 26, "name": "Reset restores Production Active, 673 lb, 99.16%", "pass": true, "evidence": "state label Production Active; ledger 673 / 99.16% restored" },
+      { "id": 27, "name": "All six production records survive reset", "pass": true, "evidence": "6 chart rows, 6 table rows, exact dates and quantities post-reset" },
+      { "id": 28, "name": "No new persistence, network, authority, or lifecycle behavior", "pass": true, "evidence": "layer has 0 fetch/XHR/WebSocket/sendBeacon, 0 localStorage writes/reads, 0 new storage keys; INDEX274_REPAIR flags persistentStateAdded/authorityAdded/networkAdded=false" }
+    ]
+  },
+  "accountingIdentityPreserved": "78,684 Product Output + 795 Final Documented Loss + 521 Confirmed Ghost Weight = 80,000 Nominal Input Basis",
+  "historicalVsFinalDistinction": "Pane retains historical 673 lb / 99.16% (pre-reconciliation); confirmed cards show final 152 / 795 / 79,479 / 521 / 99.35%. No historical value replaced by a final value.",
+  "visualProofSnapshots": [
+    "index_274_proof_G_production_active_upper_workspace.html  (screenshot #1)",
+    "index_274_proof_B_product_output_help_open.html          (screenshot #2)",
+    "index_274_proof_C_step3_one_entry_52lb.html              (screenshot #3)",
+    "index_274_proof_A_workspace_and_step3_enabled.html       (screenshot #4)",
+    "index_274_proof_D_other_blank_disabled_confirm.html      (screenshot #5)",
+    "index_274_proof_F_confirmed_state.html                   (screenshot #6)",
+    "index_274_proof_E_confirmation_modal.html                (bonus: confirmation modal)"
+  ],
+  "limitations": [
+    "The Browser pane raster screenshot capture (computer{screenshot}/zoom) was unresponsive this session (every call timed out; JS eval and navigation worked). No external Chrome was connected. Requested screenshots are therefore delivered as self-contained static visual PROOF snapshots (exact post-enhancement rendered DOM + all page styles inlined, no scripts) that render identically when opened in any browser, plus objective computed-style evidence.",
+    "One inherited non-error startup console warning remains from the accepted Index 272 baseline (unchanged by Index 274)."
+  ]
+}
