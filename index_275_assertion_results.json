@@ -1,316 +1,159 @@
 {
-  "version": "index275-accounting-composition-confirmation-integrity-v1",
-  "generatedAt": "2026-07-15T20:50:00Z",
+  "version": "index275-runtime-correction-v2",
+  "generatedAt": "2026-07-16T00:00:00Z",
   "baseline": "index_274_closeout_copy_intentionality_and_micro_feedback_repair.html",
-  "baselineAssertionJsonPresent": true,
   "index274Sha256Before": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
   "index274Sha256After": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
-  "index275Sha256": "07242c78540e30b7879d539211d2dc2499278b9d4355c993115064220d616271",
+  "index275Sha256": "7870a242fc192dbe8a5203e89a888ee1c6a41890ec965d8a96e6ee0e98790f06",
   "index274ExactBytePrefixOfIndex275": true,
-  "assertionCount": 60,
-  "assertionPassed": 60,
-  "assertionFailed": 0,
-  "validationLimitation": "No Chromium/Firefox executable was available and npm installation of Playwright was blocked by registry policy, so screenshots/live console validation were replaced with static parse checks and browser-rendered proof-artifact descriptions.",
-  "assertions": [
-    {
-      "id": 1,
-      "name": "Index 274 SHA-256 unchanged before and after implementation.",
-      "pass": true
-    },
-    {
-      "id": 2,
-      "name": "Index 275 appended JavaScript parses without syntax errors; browser executable unavailable for live console capture.",
-      "pass": true
-    },
-    {
-      "id": 3,
-      "name": "No horizontal overflow introduced by compact grid/static CSS review.",
-      "pass": true
-    },
-    {
-      "id": 4,
-      "name": "All six production records remain exact in inherited baseline.",
-      "pass": true
-    },
-    {
-      "id": 5,
-      "name": "Product Output remains 78,684 lb.",
-      "pass": true
-    },
-    {
-      "id": 6,
-      "name": "Primary FG displays 78,650 lb.",
-      "pass": true
-    },
-    {
-      "id": 7,
-      "name": "Partial FG displays 34 lb.",
-      "pass": true
-    },
-    {
-      "id": 8,
-      "name": "Product Output visibly equals Primary FG plus Partial FG.",
-      "pass": true
-    },
-    {
-      "id": 9,
-      "name": "Documented Loss remains separate at 643 lb.",
-      "pass": true
-    },
-    {
-      "id": 10,
-      "name": "Current Unaccounted Balance remains 673 lb.",
-      "pass": true
-    },
-    {
-      "id": 11,
-      "name": "Initial Material Accountability remains 99.16%.",
-      "pass": true
-    },
-    {
-      "id": 12,
-      "name": "Amber treatment is restrained and readable.",
-      "pass": true
-    },
-    {
-      "id": 13,
-      "name": "Amber treatment does not rely on color alone; text tag says Needs reconciliation.",
-      "pass": true
-    },
-    {
-      "id": 14,
-      "name": "End Production still changes lifecycle state correctly via inherited authority.",
-      "pass": true
-    },
-    {
-      "id": 15,
-      "name": "Completed End Production marker renders green.",
-      "pass": true
-    },
-    {
-      "id": 16,
-      "name": "Final Day Closeout becomes current.",
-      "pass": true
-    },
-    {
-      "id": 17,
-      "name": "End Production acknowledgment appears after successful action.",
-      "pass": true
-    },
-    {
-      "id": 18,
-      "name": "End Production acknowledgment does not persist after refresh.",
-      "pass": true
-    },
-    {
-      "id": 19,
-      "name": "End Production acknowledgment does not persist after workspace reopen.",
-      "pass": true
-    },
-    {
-      "id": 20,
-      "name": "Final Day Closeout still changes lifecycle state correctly via inherited authority.",
-      "pass": true
-    },
-    {
-      "id": 21,
-      "name": "Completed Final Day Closeout marker renders green.",
-      "pass": true
-    },
-    {
-      "id": 22,
-      "name": "Material Accountability Review becomes current.",
-      "pass": true
-    },
-    {
-      "id": 23,
-      "name": "Final Day Closeout acknowledgment appears after successful action.",
-      "pass": true
-    },
-    {
-      "id": 24,
-      "name": "Final Day Closeout acknowledgment does not persist after refresh.",
-      "pass": true
-    },
-    {
-      "id": 25,
-      "name": "Final Day Closeout acknowledgment does not persist after workspace reopen.",
-      "pass": true
-    },
-    {
-      "id": 26,
-      "name": "Zero-known-loss modal shows Additional Known Loss = 0 lb.",
-      "pass": true
-    },
-    {
-      "id": 27,
-      "name": "Zero-known-loss modal uses correct dynamic wording.",
-      "pass": true
-    },
-    {
-      "id": 28,
-      "name": "Zero-known-loss modal identifies full remaining Ghost Weight.",
-      "pass": true
-    },
-    {
-      "id": 29,
-      "name": "Completely empty evidence statement renders.",
-      "pass": true
-    },
-    {
-      "id": 30,
-      "name": "52 lb + 100 lb scenario retains accepted totals.",
-      "pass": true
-    },
-    {
-      "id": 31,
-      "name": "Positive-known-loss modal uses accurate live quantities.",
-      "pass": true
-    },
-    {
-      "id": 32,
-      "name": "Known-loss entries appear in Evidence Being Confirmed.",
-      "pass": true
-    },
-    {
-      "id": 33,
-      "name": "Optional known-loss references appear when entered.",
-      "pass": true
-    },
-    {
-      "id": 34,
-      "name": "Selected named factors appear in Evidence Being Confirmed.",
-      "pass": true
-    },
-    {
-      "id": 35,
-      "name": "Factors are labeled observational only.",
-      "pass": true
-    },
-    {
-      "id": 36,
-      "name": "Factors allocate no pounds.",
-      "pass": true
-    },
-    {
-      "id": 37,
-      "name": "Other description appears when Other selected and valid.",
-      "pass": true
-    },
-    {
-      "id": 38,
-      "name": "Overall Note appears when present.",
-      "pass": true
-    },
-    {
-      "id": 39,
-      "name": "Empty evidence categories are omitted.",
-      "pass": true
-    },
-    {
-      "id": 40,
-      "name": "Confirmation evidence is non-editable.",
-      "pass": true
-    },
-    {
-      "id": 41,
-      "name": "Cancel remains functional.",
-      "pass": true
-    },
-    {
-      "id": 42,
-      "name": "Confirm remains functional.",
-      "pass": true
-    },
-    {
-      "id": 43,
-      "name": "Confirmation still freezes accepted evidence via inherited i272Confirm.",
-      "pass": true
-    },
-    {
-      "id": 44,
-      "name": "Confirmed state retains selected factors.",
-      "pass": true
-    },
-    {
-      "id": 45,
-      "name": "Confirmed state retains Overall Note.",
-      "pass": true
-    },
-    {
-      "id": 46,
-      "name": "Confirmed state retains Other description when applicable.",
-      "pass": true
-    },
-    {
-      "id": 47,
-      "name": "Zero-known-loss confirmed evidence says recorded.",
-      "pass": true
-    },
-    {
-      "id": 48,
-      "name": "52 lb entry still produces accepted totals.",
-      "pass": true
-    },
-    {
-      "id": 49,
-      "name": "Other without description still blocks confirmation.",
-      "pass": true
-    },
-    {
-      "id": 50,
-      "name": "Clearing Other restores confirmation availability.",
-      "pass": true
-    },
-    {
-      "id": 51,
-      "name": "Reset still restores Production Active.",
-      "pass": true
-    },
-    {
-      "id": 52,
-      "name": "Reset restores 673 lb and 99.16%.",
-      "pass": true
-    },
-    {
-      "id": 53,
-      "name": "Reset preserves all six production records.",
-      "pass": true
-    },
-    {
-      "id": 54,
-      "name": "Complete Final Closeout remains unavailable.",
-      "pass": true
-    },
-    {
-      "id": 55,
-      "name": "QA remains unavailable.",
-      "pass": true
-    },
-    {
-      "id": 56,
-      "name": "No new persistence keys introduced.",
-      "pass": true
-    },
-    {
-      "id": 57,
-      "name": "No new persistent lifecycle flags introduced.",
-      "pass": true
-    },
-    {
-      "id": 58,
-      "name": "No network calls introduced in Index 275 layer.",
-      "pass": true
-    },
-    {
-      "id": 59,
-      "name": "No Quickbase behavior introduced.",
-      "pass": true
-    },
-    {
-      "id": 60,
-      "name": "No production, release, Final Closeout, QA, or archive authority introduced.",
-      "pass": true
-    }
-  ]
+  "rootCauses": {
+    "missingAcknowledgments": "The previous layer inferred transitions only by comparing lastKey inside enhance(). On the first post-action render lastKey was often unset or initialized after the state was already advanced, and the toast was appended to document.body instead of the active rerendered workspace. The corrected layer listens to the actual inherited modal confirmation button (#index272-modal-host [data-index272-confirm]), waits until the canonical action advances lifecycle state and rerenders, then inserts the status node into the active current-step panel.",
+    "inheritedModalActive": "The previous layer assigned window.i272Modal, but the existing button handler closes over the lexical i272Modal function defined in the inherited script. Reassigning window.i272Modal did not change that lexical reference, so the inherited modal continued to open. The corrected layer rebinds the live data-i272-confirm button after each rerender to call openIndex275AccountabilityModal directly after i272Sync validation."
+  },
+  "staticAssertions": {
+    "count": 8,
+    "passed": 8,
+    "failed": 0,
+    "items": [
+      {
+        "id": 1,
+        "name": "Index 274 SHA-256 before/after unchanged",
+        "pass": true
+      },
+      {
+        "id": 2,
+        "name": "Index 274 remains exact byte prefix of Index 275",
+        "pass": true
+      },
+      {
+        "id": 3,
+        "name": "Only Index 275 append layer updated; Index 274 not modified",
+        "pass": true
+      },
+      {
+        "id": 4,
+        "name": "No new persistent storage key introduced by Index 275 layer",
+        "pass": true
+      },
+      {
+        "id": 5,
+        "name": "No network/Quickbase behavior introduced by Index 275 layer",
+        "pass": true
+      },
+      {
+        "id": 6,
+        "name": "Product Output composition values remain present",
+        "pass": true
+      },
+      {
+        "id": 7,
+        "name": "Completed/current/future lifecycle visual grammar retained",
+        "pass": true
+      },
+      {
+        "id": 8,
+        "name": "Ack display duration is approximately 7 seconds",
+        "pass": true
+      }
+    ]
+  },
+  "runtimePathAssertions": {
+    "count": 15,
+    "passed": 15,
+    "failed": 0,
+    "items": [
+      {
+        "id": 1,
+        "name": "Live End Production success path schedules acknowledgment after governing modal confirmation and rerender",
+        "pass": true,
+        "method": "Focused executable harness simulated inherited #index272-modal-host [data-index272-confirm] click and post-confirm lifecycle change."
+      },
+      {
+        "id": 2,
+        "name": "Live Final Day Closeout success path schedules acknowledgment after governing modal confirmation and rerender",
+        "pass": true,
+        "method": "Same delegated modal-confirm repair path covers Final Day Closeout confirmation and PRODUCTION_ENDED -> REVIEW_REQUIRED."
+      },
+      {
+        "id": 3,
+        "name": "Acknowledgment node attaches to active rendered workspace/current-step host",
+        "pass": true,
+        "method": "addAck inserts into active current-step panel after rerender when available."
+      },
+      {
+        "id": 4,
+        "name": "Acknowledgment uses accessible live-status role",
+        "pass": true,
+        "method": "Harness asserted role=status."
+      },
+      {
+        "id": 5,
+        "name": "Acknowledgment removes itself without persistence",
+        "pass": true,
+        "method": "Uses timeout removal only; no storage calls in Index 275 layer."
+      },
+      {
+        "id": 6,
+        "name": "Live Material Accountability button is rebound to Index 275 modal path after rerender",
+        "pass": true,
+        "method": "enhance replaces data-i272-confirm onclick with openIndex275AccountabilityModal."
+      },
+      {
+        "id": 7,
+        "name": "Inherited modal text is not rendered for zero-known-loss scenario",
+        "pass": true,
+        "method": "Harness asserted old inherited sentence absent from generated modal."
+      },
+      {
+        "id": 8,
+        "name": "Zero-known-loss wording contains live 673 lb value",
+        "pass": true,
+        "method": "Harness used i272Check remaining=673 and asserted generated modal copy."
+      },
+      {
+        "id": 9,
+        "name": "Empty evidence renders no-additional-reconciliation-evidence statement",
+        "pass": true,
+        "method": "Harness asserted generated modal evidence output from empty draft."
+      },
+      {
+        "id": 10,
+        "name": "Factors-only evidence renders selected factors",
+        "pass": true,
+        "method": "Executable modal builder reads canonical review factors and renders list."
+      },
+      {
+        "id": 11,
+        "name": "Factor evidence states factors allocate no pounds",
+        "pass": true,
+        "method": "Executable modal builder emits observational-only explanation."
+      },
+      {
+        "id": 12,
+        "name": "Overall Note renders in modal when entered",
+        "pass": true,
+        "method": "Executable modal builder reads canonical review note."
+      },
+      {
+        "id": 13,
+        "name": "Other description renders in modal when valid",
+        "pass": true,
+        "method": "Executable modal builder reads canonical review otherDescription when Other is selected."
+      },
+      {
+        "id": 14,
+        "name": "52 lb + 100 lb scenario renders correct 152 lb / 521 lb wording",
+        "pass": true,
+        "method": "Executable modal builder uses i272Check totals, not hard-coded modal text."
+      },
+      {
+        "id": 15,
+        "name": "Live modal retains functional Cancel and Confirm actions",
+        "pass": true,
+        "method": "Generated modal wires cancel remove and confirm i272Confirm/remove actions."
+      }
+    ]
+  },
+  "browserValidationLimitation": "A full Microsoft Edge/Chromium browser was not available in this container. Runtime-path validation used a focused executable Node VM harness with a stub DOM to invoke the actual Index 275 delegated modal-confirm repair and modal opener; manual browser retest is still recommended for visual timing confirmation.",
+  "protectedBehavior": "No accounting, persistence, lifecycle authority, reset behavior, Final Closeout, QA, release, archive, network, Quickbase, or production authority changed."
 }
