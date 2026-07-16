@@ -1,0 +1,72 @@
+{
+  "index": "276",
+  "generatedAt": "2026-07-16T00:00:00Z",
+  "files": {
+    "baseline": "index_274_closeout_copy_intentionality_and_micro_feedback_repair.html",
+    "implementation": "index_276_planner_rounding_execution_authority_and_canonical_propagation_repair.html"
+  },
+  "sha256": {
+    "index274_before": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
+    "index274_after": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
+    "index276": "4751d2a7c3efadefd31155c81df4ee6be6a71ae90eb2d432bd55218d511b6f10"
+  },
+  "sourceProtection": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5
+  },
+  "canonicalPlanningAndCalculation": {
+    "passed": 22,
+    "failed": 0,
+    "total": 22
+  },
+  "finalPartialTargetFloor": {
+    "passed": 25,
+    "failed": 0,
+    "total": 25
+  },
+  "runtimeAndPropagation": {
+    "passed": 36,
+    "failed": 0,
+    "total": 36,
+    "method": "Embedded Index276PlannerRoundingAuthority.runAssertions runtime harness invokes draft, review, apply, plan recalculation, signed delta, target-floor true-up, allocation/document rendering, commit, persistence-state and reset paths."
+  },
+  "visualValidation": {
+    "screenshotsCaptured": false,
+    "limitation": "No browser screenshot capture tool is available in this container session; executable DOM/runtime harness evidence is embedded."
+  },
+  "rootCauses": {
+    "disconnectedDraftOnly": "Index 274 mutates only row DOM/chip state and draft count; Apply is disabled as a future phase, so no canonical plan, allocation, document, or commit model is updated.",
+    "duplicatePhysicalOpportunity": "Candidate identity included presentation context/source, allowing Standard Partial and Batch Group Partial cards for the same physical requirement to become separate candidates."
+  },
+  "models": {
+    "canonicalDecisionIdentity": "rounding|run|plan revision|affected batch group|ingredient|lot|source pack|exact original partial|rounding action",
+    "signedDelta": "(applied planned quantity - original planned quantity) * affected batch count",
+    "targetFloor": "preTrueUp = original planned run input + sum(signed deltas); shortfall = max(0, target - preTrueUp); positive variance remains disclosed; shortage is carried to final partial.",
+    "trueUpLineage": "Derived true-up records retain run, revision, source decision ids, affected batch group, ingredient, signed delta, remaining shortfall, receiving final batch, original final formula quantity, and final planned pull."
+  },
+  "downstreamConsumers": [
+    "full-batch ingredient instructions",
+    "kit builder/prepared partial",
+    "per-batch variance disclosure",
+    "run-level variance and target reconciliation",
+    "planned material consumption",
+    "inventory allocation summary",
+    "Batch Sheet",
+    "Floor Log",
+    "Print Packet",
+    "review/confirmation",
+    "committed operational plan"
+  ],
+  "primaryFixture": {
+    "greenTotal": 39010.8,
+    "redTotal": 5115.6,
+    "totalPlannedInput": 44126.4,
+    "target": 44100,
+    "variance": 26.4,
+    "finalPartialTrueUp": 0
+  },
+  "unresolvedLimitations": [
+    "Manual browser screenshots were not captured because no browser screenshot tool is available in this execution context."
+  ]
+}
