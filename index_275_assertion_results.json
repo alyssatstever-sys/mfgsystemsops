@@ -1,14 +1,18 @@
 {
-  "version": "index275-runtime-correction-v2",
+  "version": "index275-second-runtime-correction-v3",
   "generatedAt": "2026-07-16T00:00:00Z",
   "baseline": "index_274_closeout_copy_intentionality_and_micro_feedback_repair.html",
   "index274Sha256Before": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
   "index274Sha256After": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
-  "index275Sha256": "7870a242fc192dbe8a5203e89a888ee1c6a41890ec965d8a96e6ee0e98790f06",
+  "index275Sha256": "e86d06980ef0e6851346ea83fab23ce83ce1e6bab2d92440e2771633aace111c",
   "index274ExactBytePrefixOfIndex275": true,
   "rootCauses": {
-    "missingAcknowledgments": "The previous layer inferred transitions only by comparing lastKey inside enhance(). On the first post-action render lastKey was often unset or initialized after the state was already advanced, and the toast was appended to document.body instead of the active rerendered workspace. The corrected layer listens to the actual inherited modal confirmation button (#index272-modal-host [data-index272-confirm]), waits until the canonical action advances lifecycle state and rerenders, then inserts the status node into the active current-step panel.",
-    "inheritedModalActive": "The previous layer assigned window.i272Modal, but the existing button handler closes over the lexical i272Modal function defined in the inherited script. Reassigning window.i272Modal did not change that lexical reference, so the inherited modal continued to open. The corrected layer rebinds the live data-i272-confirm button after each rerender to call openIndex275AccountabilityModal directly after i272Sync validation."
+    "deadConfirmButton": "The previous correction replaced the live button onclick and called i272Sync with the broad page root rather than the same page object captured by the inherited i272Bind closure. In Edge this replacement could fail before opening the modal, while also bypassing the inherited functional path. The second correction no longer depends on a per-node stale onclick or pre-modal i272Sync call; it intercepts the final live [data-i272-confirm] click during capture, prevents the inherited modal from also opening, and opens the Index 275 modal exactly once from current canonical draft state.",
+    "missingAcknowledgments": "The prior acknowledgment timer was scheduled around the pre-rerender action timing and could run before the post-transition workspace was stable. The second correction records a pending non-persistent acknowledgment from the inherited lifecycle modal confirm button, then repeatedly observes the newly rendered lifecycle state in enhance()/MutationObserver until the expected post-rerender state exists before inserting the role=status node into the active current-step workspace."
+  },
+  "eventPathsRepaired": {
+    "materialAccountabilityConfirm": "document capture click -> live [data-i272-confirm] -> preventDefault/stopImmediatePropagation -> openIndex275AccountabilityModal() -> Cancel removes modal or Confirm calls existing i272Confirm().",
+    "lifecycleAcknowledgments": "document capture click -> #index272-modal-host [data-index272-confirm] -> schedule pending expected lifecycle state -> canonical inherited handler runs endProduction()/saveFinalDayCloseout() and rerenders -> enhance observes expected state -> addAck inserts transient role=status into [data-current-step-panel]."
   },
   "staticAssertions": {
     "count": 8,
@@ -64,96 +68,96 @@
     "items": [
       {
         "id": 1,
-        "name": "Live End Production success path schedules acknowledgment after governing modal confirmation and rerender",
+        "name": "Final live [data-i272-confirm] node has an operative delegated capture listener",
         "pass": true,
-        "method": "Focused executable harness simulated inherited #index272-modal-host [data-index272-confirm] click and post-confirm lifecycle change."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 2,
-        "name": "Live Final Day Closeout success path schedules acknowledgment after governing modal confirmation and rerender",
+        "name": "Clicking that exact node opens the Index 275 modal",
         "pass": true,
-        "method": "Same delegated modal-confirm repair path covers Final Day Closeout confirmation and PRODUCTION_ENDED -> REVIEW_REQUIRED."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 3,
-        "name": "Acknowledgment node attaches to active rendered workspace/current-step host",
+        "name": "Confirm click opens exactly one modal",
         "pass": true,
-        "method": "addAck inserts into active current-step panel after rerender when available."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 4,
-        "name": "Acknowledgment uses accessible live-status role",
+        "name": "Cancel action is wired to close the modal without confirmation",
         "pass": true,
-        "method": "Harness asserted role=status."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 5,
-        "name": "Acknowledgment removes itself without persistence",
+        "name": "Canonical confirm callback remains reachable through i272Confirm",
         "pass": true,
-        "method": "Uses timeout removal only; no storage calls in Index 275 layer."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 6,
-        "name": "Live Material Accountability button is rebound to Index 275 modal path after rerender",
+        "name": "Listener survives Step 3 rerender because it is delegated and does not depend on stale node onclick",
         "pass": true,
-        "method": "enhance replaces data-i272-confirm onclick with openIndex275AccountabilityModal."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 7,
-        "name": "Inherited modal text is not rendered for zero-known-loss scenario",
+        "name": "Test target is the live rendered [data-i272-confirm] node, not a detached stale node",
         "pass": true,
-        "method": "Harness asserted old inherited sentence absent from generated modal."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 8,
-        "name": "Zero-known-loss wording contains live 673 lb value",
+        "name": "End Production acknowledgment is requested from inherited modal confirm and inserted after post-rerender lifecycle observation",
         "pass": true,
-        "method": "Harness used i272Check remaining=673 and asserted generated modal copy."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 9,
-        "name": "Empty evidence renders no-additional-reconciliation-evidence statement",
+        "name": "Final Day Closeout acknowledgment is requested from inherited modal confirm and inserted after post-rerender lifecycle observation",
         "pass": true,
-        "method": "Harness asserted generated modal evidence output from empty draft."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 10,
-        "name": "Factors-only evidence renders selected factors",
+        "name": "Acknowledgment attaches to active current-step workspace container",
         "pass": true,
-        "method": "Executable modal builder reads canonical review factors and renders list."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 11,
-        "name": "Factor evidence states factors allocate no pounds",
+        "name": "Acknowledgment uses role=status and aria-live=polite",
         "pass": true,
-        "method": "Executable modal builder emits observational-only explanation."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 12,
-        "name": "Overall Note renders in modal when entered",
+        "name": "Acknowledgment remains observable until the 7 second removal timer",
         "pass": true,
-        "method": "Executable modal builder reads canonical review note."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 13,
-        "name": "Other description renders in modal when valid",
+        "name": "Inherited zero-known-loss modal text is suppressed for the live confirm click",
         "pass": true,
-        "method": "Executable modal builder reads canonical review otherDescription when Other is selected."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 14,
-        "name": "52 lb + 100 lb scenario renders correct 152 lb / 521 lb wording",
+        "name": "Zero-known-loss modal renders live 673 lb wording plus empty evidence",
         "pass": true,
-        "method": "Executable modal builder uses i272Check totals, not hard-coded modal text."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       },
       {
         "id": 15,
-        "name": "Live modal retains functional Cancel and Confirm actions",
+        "name": "Modal confirm opens existing canonical confirmation behavior exactly through i272Confirm",
         "pass": true,
-        "method": "Generated modal wires cancel remove and confirm i272Confirm/remove actions."
+        "method": "Focused executable Node VM DOM harness invoked the actual Index 275 delegated event path against a live stub [data-i272-confirm] node and inherited modal-confirm target."
       }
     ]
   },
-  "browserValidationLimitation": "A full Microsoft Edge/Chromium browser was not available in this container. Runtime-path validation used a focused executable Node VM harness with a stub DOM to invoke the actual Index 275 delegated modal-confirm repair and modal opener; manual browser retest is still recommended for visual timing confirmation.",
+  "browserValidationLimitation": "A full Microsoft Edge/Chromium browser was not available in this container. Runtime-path validation used a focused executable Node VM harness with a stub DOM to invoke the actual Index 275 delegated live-confirm and inherited lifecycle-confirm event paths; manual Edge retest is still recommended for visual confirmation.",
   "protectedBehavior": "No accounting, persistence, lifecycle authority, reset behavior, Final Closeout, QA, release, archive, network, Quickbase, or production authority changed."
 }
