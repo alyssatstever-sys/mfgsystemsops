@@ -1,5 +1,5 @@
 {
-  "index": "276",
+  "index": "276 corrective reimplementation",
   "generatedAt": "2026-07-16T00:00:00Z",
   "files": {
     "baseline": "index_274_closeout_copy_intentionality_and_micro_feedback_repair.html",
@@ -8,65 +8,102 @@
   "sha256": {
     "index274_before": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
     "index274_after": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
-    "index276": "4751d2a7c3efadefd31155c81df4ee6be6a71ae90eb2d432bd55218d511b6f10"
+    "index276": "e55501582b054e7f79d53140a56dc0ae71d553f093788539c8511894f46c13f5"
+  },
+  "prefix": {
+    "index274ExactPrefixOfIndex276": true,
+    "index274Unchanged": true
+  },
+  "rejectedImplementationRemoved": {
+    "standaloneDashboardAbsent": true,
+    "isolatedCardsAbsent": true,
+    "simulatedApplyCommitControlsAbsent": true
   },
   "sourceProtection": {
-    "passed": 5,
+    "passed": 6,
     "failed": 0,
-    "total": 5
+    "total": 6,
+    "assertions": [
+      "Index 274 SHA-256 unchanged before and after",
+      "Index 274 exact byte prefix of rebuilt Index 276",
+      "rejected Index 276 standalone panel absent from append layer",
+      "no Index 277 created",
+      "no Index 275 dependency introduced",
+      "no added network/Quickbase/QA/release/archive/closeout authority in append layer"
+    ]
   },
-  "canonicalPlanningAndCalculation": {
-    "passed": 22,
+  "actualLivePlannerRuntime": {
+    "passed": 31,
     "failed": 0,
-    "total": 22
+    "total": 31,
+    "method": "Non-visible harness and monkey patches exercise the existing Confirm Plan modal functions, Partial Rounding table renderer, existing Apply footer control, impact modal, buildBatchSegments/buildStep2PhaseModel/finalPartialPullRows/inventoryEngineResult/saveConfirmPlan hooks, and reset state."
   },
-  "finalPartialTargetFloor": {
-    "passed": 25,
+  "roundDownTrueUpRuntime": {
+    "passed": 10,
     "failed": 0,
-    "total": 25
+    "total": 10
   },
-  "runtimeAndPropagation": {
-    "passed": 36,
+  "domAndAuthorityIntegrity": {
+    "passed": 7,
     "failed": 0,
-    "total": 36,
-    "method": "Embedded Index276PlannerRoundingAuthority.runAssertions runtime harness invokes draft, review, apply, plan recalculation, signed delta, target-floor true-up, allocation/document rendering, commit, persistence-state and reset paths."
-  },
-  "visualValidation": {
-    "screenshotsCaptured": false,
-    "limitation": "No browser screenshot capture tool is available in this container session; executable DOM/runtime harness evidence is embedded."
+    "total": 7
   },
   "rootCauses": {
-    "disconnectedDraftOnly": "Index 274 mutates only row DOM/chip state and draft count; Apply is disabled as a future phase, so no canonical plan, allocation, document, or commit model is updated.",
-    "duplicatePhysicalOpportunity": "Candidate identity included presentation context/source, allowing Standard Partial and Batch Group Partial cards for the same physical requirement to become separate candidates."
+    "rejectedIsolatedDashboard": "The previous Index 276 append layer created its own persistent dashboard, state object, render cards, Apply button, Commit button, and assertion harness; those elements did not drive the existing Confirm Plan modal or its builders, so the proof covered a simulation rather than the manufacturing planner.",
+    "realDuplicateCandidate": "The inherited candidate key included display context/source labels such as Standard Partial and Batch Group Partial. Because the same Green 49.2 lb physical requirement is discovered from both scenario.rows and buildBatchSegments rows, the context-specific key allowed two candidate identities for one requirement."
   },
-  "models": {
-    "canonicalDecisionIdentity": "rounding|run|plan revision|affected batch group|ingredient|lot|source pack|exact original partial|rounding action",
-    "signedDelta": "(applied planned quantity - original planned quantity) * affected batch count",
-    "targetFloor": "preTrueUp = original planned run input + sum(signed deltas); shortfall = max(0, target - preTrueUp); positive variance remains disclosed; shortage is carried to final partial.",
-    "trueUpLineage": "Derived true-up records retain run, revision, source decision ids, affected batch group, ingredient, signed delta, remaining shortfall, receiving final batch, original final formula quantity, and final planned pull."
-  },
-  "downstreamConsumers": [
-    "full-batch ingredient instructions",
-    "kit builder/prepared partial",
-    "per-batch variance disclosure",
-    "run-level variance and target reconciliation",
-    "planned material consumption",
-    "inventory allocation summary",
-    "Batch Sheet",
-    "Floor Log",
-    "Print Packet",
-    "review/confirmation",
-    "committed operational plan"
+  "canonicalDecisionIdentity": "rounding|run id|index-276-live-precommit|batches-1-33|ingredient|lot/source context|50 lb pack|49.2 lb original partial|rounding action",
+  "liveApplyEventPath": [
+    "partialRoundingReviewCardHtml renders the existing Partial Rounding table with one canonical row",
+    "Index276LivePlanner.selectUse50(runId) creates one draft on run.index276Rounding.decisions",
+    "existing footer Apply drafts to execution plan button calls Index276LivePlanner.openImpact(runId)",
+    "impact modal Cancel removes only the modal",
+    "impact modal Apply to Operational Plan calls Index276LivePlanner.confirmApply(runId)",
+    "confirmApply calls applyCanonical(run), closes the modal, and rerenders the existing Confirm Plan modal"
   ],
-  "primaryFixture": {
-    "greenTotal": 39010.8,
-    "redTotal": 5115.6,
+  "planRecalculationPath": [
+    "applyCanonical marks the canonical draft applied",
+    "buildAppliedPlan computes signed delta and target-floor reconciliation",
+    "buildBatchSegments wrapper updates full batch Green to 23 units/no partial while preserving Red partial",
+    "buildStep2PhaseModel wrapper makes Phase Model Proof consume the applied segment plan",
+    "finalPartialPullRows wrapper preserves the unchanged final partial for the positive round-up",
+    "inventoryEngineResult wrapper updates existing allocation requirements for the applied Green total",
+    "saveConfirmPlan wrapper freezes the same applied revision into run.index276Rounding.committedPlan"
+  ],
+  "realDownstreamBuildersRepaired": [
+    "partialRoundingReviewModel",
+    "partialRoundingReviewCardHtml",
+    "buildBatchSegments",
+    "buildStep2PhaseModel",
+    "finalPartialPullRows",
+    "inventoryEngineResult",
+    "openConfirmPlanModal/rerender path",
+    "saveConfirmPlan"
+  ],
+  "primaryAppliedFixture": {
+    "greenUnitsPerFullBatch": 23,
+    "greenPartialPerFullBatch": 0,
+    "redUnitsPerFullBatch": 3,
+    "redPartialPerFullBatch": 0.8,
+    "kitA": "0.8 lb Red only, quantity 33",
+    "greenConsumption": 39010.8,
+    "redConsumption": 5115.6,
     "totalPlannedInput": 44126.4,
     "target": 44100,
     "variance": 26.4,
-    "finalPartialTrueUp": 0
+    "finalPartialTrueUp": 0,
+    "finalPartial": "unchanged: 1060.8 lb Green + 139.2 lb Red"
   },
-  "unresolvedLimitations": [
-    "Manual browser screenshots were not captured because no browser screenshot tool is available in this execution context."
+  "browserValidation": {
+    "screenshotsCaptured": false,
+    "limitation": "No full browser or screenshot capture tool is installed in this container. Manual Microsoft Edge validation remains required before acceptance."
+  },
+  "remainingManualProofSteps": [
+    "Open the existing Confirm Plan modal for Jalapeno Powder Blend Lot 400067 in Microsoft Edge.",
+    "Verify one Green Partial Rounding row, select Use 50 lb, and confirm the existing Apply footer opens one impact modal.",
+    "Cancel once and verify Kit A and plan remain unchanged.",
+    "Apply and verify the existing modal rerenders with Red-only Kit A, 23 Green units, no 49.2 lb Green partial, updated Phase Model Proof, allocation, Batch Sheet, Floor Log, and Print Packet.",
+    "Commit Plan and verify reopen/refresh freezes the applied plan.",
+    "Run reset/demo authority and verify the original exact plan and documents return."
   ]
 }
