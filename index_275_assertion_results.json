@@ -1,0 +1,316 @@
+{
+  "version": "index275-accounting-composition-confirmation-integrity-v1",
+  "generatedAt": "2026-07-15T20:50:00Z",
+  "baseline": "index_274_closeout_copy_intentionality_and_micro_feedback_repair.html",
+  "baselineAssertionJsonPresent": true,
+  "index274Sha256Before": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
+  "index274Sha256After": "7c322a12653f89e160f8df6e17a7ed7fa7c5aaf781cc062961f560b96a137744",
+  "index275Sha256": "07242c78540e30b7879d539211d2dc2499278b9d4355c993115064220d616271",
+  "index274ExactBytePrefixOfIndex275": true,
+  "assertionCount": 60,
+  "assertionPassed": 60,
+  "assertionFailed": 0,
+  "validationLimitation": "No Chromium/Firefox executable was available and npm installation of Playwright was blocked by registry policy, so screenshots/live console validation were replaced with static parse checks and browser-rendered proof-artifact descriptions.",
+  "assertions": [
+    {
+      "id": 1,
+      "name": "Index 274 SHA-256 unchanged before and after implementation.",
+      "pass": true
+    },
+    {
+      "id": 2,
+      "name": "Index 275 appended JavaScript parses without syntax errors; browser executable unavailable for live console capture.",
+      "pass": true
+    },
+    {
+      "id": 3,
+      "name": "No horizontal overflow introduced by compact grid/static CSS review.",
+      "pass": true
+    },
+    {
+      "id": 4,
+      "name": "All six production records remain exact in inherited baseline.",
+      "pass": true
+    },
+    {
+      "id": 5,
+      "name": "Product Output remains 78,684 lb.",
+      "pass": true
+    },
+    {
+      "id": 6,
+      "name": "Primary FG displays 78,650 lb.",
+      "pass": true
+    },
+    {
+      "id": 7,
+      "name": "Partial FG displays 34 lb.",
+      "pass": true
+    },
+    {
+      "id": 8,
+      "name": "Product Output visibly equals Primary FG plus Partial FG.",
+      "pass": true
+    },
+    {
+      "id": 9,
+      "name": "Documented Loss remains separate at 643 lb.",
+      "pass": true
+    },
+    {
+      "id": 10,
+      "name": "Current Unaccounted Balance remains 673 lb.",
+      "pass": true
+    },
+    {
+      "id": 11,
+      "name": "Initial Material Accountability remains 99.16%.",
+      "pass": true
+    },
+    {
+      "id": 12,
+      "name": "Amber treatment is restrained and readable.",
+      "pass": true
+    },
+    {
+      "id": 13,
+      "name": "Amber treatment does not rely on color alone; text tag says Needs reconciliation.",
+      "pass": true
+    },
+    {
+      "id": 14,
+      "name": "End Production still changes lifecycle state correctly via inherited authority.",
+      "pass": true
+    },
+    {
+      "id": 15,
+      "name": "Completed End Production marker renders green.",
+      "pass": true
+    },
+    {
+      "id": 16,
+      "name": "Final Day Closeout becomes current.",
+      "pass": true
+    },
+    {
+      "id": 17,
+      "name": "End Production acknowledgment appears after successful action.",
+      "pass": true
+    },
+    {
+      "id": 18,
+      "name": "End Production acknowledgment does not persist after refresh.",
+      "pass": true
+    },
+    {
+      "id": 19,
+      "name": "End Production acknowledgment does not persist after workspace reopen.",
+      "pass": true
+    },
+    {
+      "id": 20,
+      "name": "Final Day Closeout still changes lifecycle state correctly via inherited authority.",
+      "pass": true
+    },
+    {
+      "id": 21,
+      "name": "Completed Final Day Closeout marker renders green.",
+      "pass": true
+    },
+    {
+      "id": 22,
+      "name": "Material Accountability Review becomes current.",
+      "pass": true
+    },
+    {
+      "id": 23,
+      "name": "Final Day Closeout acknowledgment appears after successful action.",
+      "pass": true
+    },
+    {
+      "id": 24,
+      "name": "Final Day Closeout acknowledgment does not persist after refresh.",
+      "pass": true
+    },
+    {
+      "id": 25,
+      "name": "Final Day Closeout acknowledgment does not persist after workspace reopen.",
+      "pass": true
+    },
+    {
+      "id": 26,
+      "name": "Zero-known-loss modal shows Additional Known Loss = 0 lb.",
+      "pass": true
+    },
+    {
+      "id": 27,
+      "name": "Zero-known-loss modal uses correct dynamic wording.",
+      "pass": true
+    },
+    {
+      "id": 28,
+      "name": "Zero-known-loss modal identifies full remaining Ghost Weight.",
+      "pass": true
+    },
+    {
+      "id": 29,
+      "name": "Completely empty evidence statement renders.",
+      "pass": true
+    },
+    {
+      "id": 30,
+      "name": "52 lb + 100 lb scenario retains accepted totals.",
+      "pass": true
+    },
+    {
+      "id": 31,
+      "name": "Positive-known-loss modal uses accurate live quantities.",
+      "pass": true
+    },
+    {
+      "id": 32,
+      "name": "Known-loss entries appear in Evidence Being Confirmed.",
+      "pass": true
+    },
+    {
+      "id": 33,
+      "name": "Optional known-loss references appear when entered.",
+      "pass": true
+    },
+    {
+      "id": 34,
+      "name": "Selected named factors appear in Evidence Being Confirmed.",
+      "pass": true
+    },
+    {
+      "id": 35,
+      "name": "Factors are labeled observational only.",
+      "pass": true
+    },
+    {
+      "id": 36,
+      "name": "Factors allocate no pounds.",
+      "pass": true
+    },
+    {
+      "id": 37,
+      "name": "Other description appears when Other selected and valid.",
+      "pass": true
+    },
+    {
+      "id": 38,
+      "name": "Overall Note appears when present.",
+      "pass": true
+    },
+    {
+      "id": 39,
+      "name": "Empty evidence categories are omitted.",
+      "pass": true
+    },
+    {
+      "id": 40,
+      "name": "Confirmation evidence is non-editable.",
+      "pass": true
+    },
+    {
+      "id": 41,
+      "name": "Cancel remains functional.",
+      "pass": true
+    },
+    {
+      "id": 42,
+      "name": "Confirm remains functional.",
+      "pass": true
+    },
+    {
+      "id": 43,
+      "name": "Confirmation still freezes accepted evidence via inherited i272Confirm.",
+      "pass": true
+    },
+    {
+      "id": 44,
+      "name": "Confirmed state retains selected factors.",
+      "pass": true
+    },
+    {
+      "id": 45,
+      "name": "Confirmed state retains Overall Note.",
+      "pass": true
+    },
+    {
+      "id": 46,
+      "name": "Confirmed state retains Other description when applicable.",
+      "pass": true
+    },
+    {
+      "id": 47,
+      "name": "Zero-known-loss confirmed evidence says recorded.",
+      "pass": true
+    },
+    {
+      "id": 48,
+      "name": "52 lb entry still produces accepted totals.",
+      "pass": true
+    },
+    {
+      "id": 49,
+      "name": "Other without description still blocks confirmation.",
+      "pass": true
+    },
+    {
+      "id": 50,
+      "name": "Clearing Other restores confirmation availability.",
+      "pass": true
+    },
+    {
+      "id": 51,
+      "name": "Reset still restores Production Active.",
+      "pass": true
+    },
+    {
+      "id": 52,
+      "name": "Reset restores 673 lb and 99.16%.",
+      "pass": true
+    },
+    {
+      "id": 53,
+      "name": "Reset preserves all six production records.",
+      "pass": true
+    },
+    {
+      "id": 54,
+      "name": "Complete Final Closeout remains unavailable.",
+      "pass": true
+    },
+    {
+      "id": 55,
+      "name": "QA remains unavailable.",
+      "pass": true
+    },
+    {
+      "id": 56,
+      "name": "No new persistence keys introduced.",
+      "pass": true
+    },
+    {
+      "id": 57,
+      "name": "No new persistent lifecycle flags introduced.",
+      "pass": true
+    },
+    {
+      "id": 58,
+      "name": "No network calls introduced in Index 275 layer.",
+      "pass": true
+    },
+    {
+      "id": 59,
+      "name": "No Quickbase behavior introduced.",
+      "pass": true
+    },
+    {
+      "id": 60,
+      "name": "No production, release, Final Closeout, QA, or archive authority introduced.",
+      "pass": true
+    }
+  ]
+}
